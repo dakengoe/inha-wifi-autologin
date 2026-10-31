@@ -1,0 +1,13 @@
+# Install as ~/.config/systemd/user/inha-wifi.service
+# %h expands to your home directory. If the "requests" package lives in a different
+# Python (conda, venv), replace /usr/bin/python3 with the full path to that python.
+[Unit]
+Description=Inha Wi-Fi auto login
+
+[Service]
+ExecStart=/usr/bin/python3 -u %h/inha-wifi-autologin/auto_login.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

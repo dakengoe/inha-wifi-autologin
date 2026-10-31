@@ -1,0 +1,9 @@
+.inha_cred
+.inha_keep
+credentials
+*.cred
+*.png
+*.jpg
+
+__pycache__/
+*.pyc
