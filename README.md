@@ -35,7 +35,7 @@ sudo apt install python3-requests
 
 ```bash
 # 1. get the files
-git clone <this repo> ~/inha-wifi-autologin
+git clone https://github.com/dakengoe/inha-wifi-autologin.git ~/inha-wifi-autologin
 cd ~/inha-wifi-autologin
 
 # 2. credentials: line 1 = user ID, line 2 = password, nothing else
